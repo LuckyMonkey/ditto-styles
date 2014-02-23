@@ -1,0 +1,52 @@
+/* Underline, Bold, Italic Text */
+	.bold {font-weight:bold;} .underline {text-decoration:underline;} .Italic {font-style:oblique;}
+/* Force text to only occupy one line of space */
+	.oneline {white-space: nowrap;}
+/* Five size classes */
+	.xs {font-size:12px;} .s {font-size:18px;} .m {font-size:24px;} .lg {font-size:30px;} .xl {font-size:36px;}
+
+/* Push element over to the right 10 pixels */
+	.nudge {margin-left:10px;}
+/* Push element over to the left 10 pixels */	
+	.budge {margin-right:10px;}
+
+	.vw {min-width:100vw;} 
+	.vh {min-height:100vh;}
+	/* CSS Variable height class */
+	
+	.full {width:100%;height:100%;} 
+	.fullw {width:100%;} .fullh {height:100%;}
+	
+	.fl {float:left;} .fr {float:right;}
+	/* Float Left/Right */
+
+	.db {display:block;}
+	/* Display Block */ 
+	.oh {overflow:hidden;}
+	/* Hide overflowing Elements */
+
+	.pr {position:relative;}
+	/* Use relative positioning on Element */
+
+	.tint {background-color:rgba(22, 22, 22, 0.6) !important;}
+	/* When an element covering another object to 'darken' its color */
+	.layerUp {z-index:+1;}
+	/* When an element is covering another object */
+	.layerDown {z-index:-1;}
+	/* When you want an element to cover another object */
+	.ma {margin-left:auto;margin-right:auto;}
+	/* This is a pretty hack to cener things with a width attribute applied */
+
+	/* Class to be used on any element to make it blink */
+	.blink {animation:blink 0.4s infinite; -webkit-animation:blink 0.4s infinite;} @keyframes blink { from {opacity:0.1;} to {opacity:1;} } @-webkit-keyframes blink { from {opacity:0.1;} to {opacity:1;} } };
+	/* To be used with text classes ie class='write big' */	
+	.write, .writeDark {font-family:Tahoma, Geneva, sans-serif;font-size:14px;opacity:1;} .write {color:#FFFFFF;} .writeDark {color:#222222;}
+	/* Default Text Styling */
+	.mirror {display:block; -webkit-transform: matrix(-1, 0, 0, 1, 0, 0); -moz-transform: matrix(-1, 0, 0, 1, 0, 0); -o-transform: matrix(-1, 0, 0, 1, 0, 0); transform: matrix(-1, 0, 0, 1, 0, 0); }
+	/* Flip text completely backwards */
+	.reverse {direction: rtl;unicode-bidi:bidi-override;}
+	/* Flip text to read backwards */
+	.upsideDown {-webkit-transform:rotate(-180deg); -moz-transform:rotate(-180deg); -o-transform:rotate(-180deg); transform:rotate(-180deg); ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)"; filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+	/* Flip text upside down */
+	.ninjas {display:none;color:#000000;}
+	/* Hide Element */
