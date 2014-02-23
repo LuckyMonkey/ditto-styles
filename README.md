@@ -1,7 +1,7 @@
-ditto-styles
+![alt tag](http://i.imgur.com/sGC8K5v.png) ditto.css rapid-styles
 ============
 
-![alt tag](http://i.imgur.com/sGC8K5v.png)
+
 
 Rapid CSS classes added to elements to aid in the layout of micro-websites.
 
