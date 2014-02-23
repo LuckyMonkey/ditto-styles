@@ -1,9 +1,9 @@
-![alt tag](http://i.imgur.com/sGC8K5v.png) ditto.css rapid-styles
+![alt tag](http://i.imgur.com/sGC8K5v.png) rapid-use-styles
 ============
 
 
 
-Rapid CSS classes added to elements to aid in the layout of micro-websites.
+Ditto.css is a collection of rapid-use CSS classes added to elements to aid in the layout of micro-websites.
 
 "Always CTRL+V this!"
 ~ Hopefully (you)
